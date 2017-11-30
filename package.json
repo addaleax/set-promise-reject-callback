@@ -1,0 +1,27 @@
+{
+  "name": "set-promise-reject-callback",
+  "description": "Direct access to unhandled rejections",
+  "keywords": [
+    "promise",
+    "rejection",
+    "callback",
+    "V8"
+  ],
+  "version": "1.0.0",
+  "license": "MIT",
+  "author": "Anna Henningsen <anna@addaleax.net>",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/addaleax/set-promise-reject-callback.git"
+  },
+  "main": "./index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "devDependencies": {
+    "mocha": "^4.0.1"
+  },
+  "dependencies": {
+    "bindings": "^1.3.0"
+  }
+}
